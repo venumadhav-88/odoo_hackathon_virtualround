@@ -1,0 +1,68 @@
+/**
+ * Initial static mock dataset of employees (custodians).
+ */
+export const MOCK_EMPLOYEES = [
+  {
+    id: 'EMP-001',
+    name: 'Sarah Mitchell',
+    email: 'sarah.mitchell@enterprise.com',
+    department: 'Information Technology',
+    role: 'Lead Frontend Engineer',
+    phone: '+1 (555) 012-3456',
+    status: 'Active',
+  },
+  {
+    id: 'EMP-002',
+    name: 'James Owusu',
+    email: 'james.owusu@enterprise.com',
+    department: 'Operations',
+    role: 'Logistics Supervisor',
+    phone: '+1 (555) 012-7890',
+    status: 'Active',
+  },
+  {
+    id: 'EMP-003',
+    name: 'Linda Adeyemi',
+    email: 'linda.adeyemi@enterprise.com',
+    department: 'Marketing',
+    role: 'Creative Director',
+    phone: '+1 (555) 012-1111',
+    status: 'Active',
+  },
+  {
+    id: 'EMP-004',
+    name: 'Tom Nakamura',
+    email: 'tom.nakamura@enterprise.com',
+    department: 'Information Technology',
+    role: 'Database Administrator',
+    phone: '+1 (555) 012-2222',
+    status: 'Active',
+  },
+  {
+    id: 'EMP-005',
+    name: 'Sophia Martinez',
+    email: 'sophia.martinez@enterprise.com',
+    department: 'Sales',
+    role: 'VP of Sales',
+    phone: '+1 (555) 012-3333',
+    status: 'Active',
+  },
+  {
+    id: 'EMP-006',
+    name: 'Marcus Vance',
+    email: 'marcus.vance@enterprise.com',
+    department: 'Information Technology',
+    role: 'Junior Technician',
+    phone: '+1 (555) 012-4444',
+    status: 'Active',
+  },
+  {
+    id: 'EMP-007',
+    name: 'Emma Watson',
+    email: 'emma.watson@enterprise.com',
+    department: 'Finance',
+    role: 'Financial Controller',
+    phone: '+1 (555) 012-5555',
+    status: 'Inactive',
+  },
+];

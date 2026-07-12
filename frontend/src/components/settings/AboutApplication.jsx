@@ -2,7 +2,7 @@ import React from 'react';
 
 /**
  * AboutApplication Component.
- * Summarizes the EAM app description, tech stack tag badges, and license copyrights.
+ * Summarizes the Shaunt app description, tech stack tag badges, and license copyrights.
  * @param {Object} props
  */
 export const AboutApplication = ({ about = {} }) => {

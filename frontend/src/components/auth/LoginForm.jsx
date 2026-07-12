@@ -28,7 +28,7 @@ export const LoginForm = () => {
   return (
     <form onSubmit={onSubmitHandler} className="auth-form" noValidate>
       <h1 className="auth-title">Sign In</h1>
-      <p className="auth-subtitle">Access the EAM inventory dashboard</p>
+      <p className="auth-subtitle">Access the Shaunt inventory dashboard</p>
 
       <div className="form-group auth-form-first-group">
         <label htmlFor="login-email" className="form-label">
@@ -37,7 +37,7 @@ export const LoginForm = () => {
         <input
           id="login-email"
           type="email"
-          placeholder="admin@eam.local"
+          placeholder="admin@shaunt.local"
           disabled={isLoading}
           className={`form-input ${errors.email ? 'input-error' : ''}`}
           autoComplete="email"

@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { LogOut, Shield, ChevronLeft, ChevronRight } from 'lucide-react';
 import { ROUTES } from '@/constants/routes';
 import { navigationConfig } from '@/config/navigation';
+import LogoSrc from '@/assets/logo.png';
 
 /**
  * Sidebar Component.
@@ -14,6 +15,8 @@ import { navigationConfig } from '@/config/navigation';
  * @returns {JSX.Element} Sidebar layout.
  */
 export const Sidebar = ({ isCollapsed, onToggle, mobileOpen }) => {
+  const [logoError, setLogoError] = useState(false);
+
   const visibleNavItems = [...navigationConfig]
     .filter((item) => item.showInSidebar)
     .sort((a, b) => (a.order || 0) - (b.order || 0));
@@ -22,8 +25,18 @@ export const Sidebar = ({ isCollapsed, onToggle, mobileOpen }) => {
     <aside className={`sidebar ${isCollapsed ? 'collapsed' : ''} ${mobileOpen ? 'mobile-open' : ''}`}>
       <div className="sidebar-header">
         <div className="sidebar-brand">
-          <Shield className="sidebar-logo" size={24} />
-          <span className="sidebar-brand-text">AssetGuard</span>
+          {!logoError ? (
+            <img 
+              src={LogoSrc} 
+              alt="Shaunt Logo" 
+              className="sidebar-logo-img" 
+              onError={() => setLogoError(true)} 
+              style={{ width: '28px', height: '28px', objectFit: 'contain' }}
+            />
+          ) : (
+            <span style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--color-primary)' }}>S</span>
+          )}
+          <span className="sidebar-brand-text">Shaunt</span>
         </div>
         <button 
           className="sidebar-toggle-btn" 

@@ -1,0 +1,99 @@
+2026-07-12 15:20:53.013 | INFO     | app.main:_on_startup:75 | ✓ Enterprise Asset Management v1.0.0 starting in production mode on 0.0.0.0:8000
+2026-07-12 15:20:53.013 | INFO     | app.main:_on_startup:83 | ✓ CORS allowed origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-07-12 15:20:53.013 | INFO     | app.main:_on_startup:84 | ✓ API prefix: /api/v1
+2026-07-12 15:20:53.013 | INFO     | app.main:_on_startup:85 | Application startup complete.
+2026-07-12 15:21:25.101 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /api/v1/health | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:21:25.121 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /api/v1/health | status=200 | duration=15.72ms
+2026-07-12 15:21:40.880 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /docs | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:21:40.883 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /docs | status=200 | duration=1.23ms
+2026-07-12 15:21:42.979 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /redoc | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:21:42.981 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /redoc | status=200 | duration=1.27ms
+2026-07-12 15:21:45.082 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /openapi.json | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:21:45.085 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /openapi.json | status=200 | duration=2.05ms
+2026-07-12 15:27:27.046 | INFO     | app.main:_on_startup:76 | ✓ Enterprise Asset Management v1.0.0 starting in production mode on 0.0.0.0:8000
+2026-07-12 15:27:27.046 | INFO     | app.main:_on_startup:84 | ✓ CORS allowed origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-07-12 15:27:27.046 | INFO     | app.main:_on_startup:85 | ✓ API prefix: /api/v1
+2026-07-12 15:27:27.046 | INFO     | app.main:_on_startup:86 | Application startup complete.
+2026-07-12 15:27:57.518 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /api/v1/health | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:27:57.529 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /api/v1/health | status=200 | duration=3.59ms
+2026-07-12 15:27:59.614 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /docs | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:27:59.616 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /docs | status=200 | duration=1.06ms
+2026-07-12 15:28:01.666 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /redoc | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:28:01.669 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /redoc | status=200 | duration=0.96ms
+2026-07-12 15:28:03.762 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /openapi.json | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:28:03.763 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /openapi.json | status=200 | duration=1.18ms
+2026-07-12 15:29:00.766 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /api/v1/health | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:29:00.770 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /api/v1/health | status=200 | duration=2.47ms
+2026-07-12 15:29:02.852 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /docs | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:29:02.854 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /docs | status=200 | duration=1.18ms
+2026-07-12 15:29:04.952 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /redoc | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:29:04.953 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /redoc | status=200 | duration=1.03ms
+2026-07-12 15:29:07.035 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /openapi.json | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:29:07.037 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /openapi.json | status=200 | duration=0.95ms
+2026-07-12 15:30:02.197 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /api/v1/health | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:30:02.201 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /api/v1/health | status=200 | duration=2.40ms
+2026-07-12 15:30:04.254 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /docs | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:30:04.255 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /docs | status=200 | duration=1.11ms
+2026-07-12 15:30:06.302 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /redoc | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:30:06.305 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /redoc | status=200 | duration=1.50ms
+2026-07-12 15:30:08.385 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /openapi.json | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:30:08.386 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /openapi.json | status=200 | duration=0.98ms
+2026-07-12 15:35:19.471 | INFO     | app.main:_on_startup:76 | ✓ Enterprise Asset Management v1.0.0 starting in production mode on 0.0.0.0:8000
+2026-07-12 15:35:19.484 | INFO     | app.main:_on_startup:84 | ✓ CORS allowed origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-07-12 15:35:19.484 | INFO     | app.main:_on_startup:85 | ✓ API prefix: /api/v1
+2026-07-12 15:35:19.484 | INFO     | app.main:_on_startup:86 | Application startup complete.
+2026-07-12 15:35:55.563 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /api/v1/health | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:35:55.567 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /api/v1/health | status=200 | duration=3.75ms
+2026-07-12 15:35:57.621 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /docs | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:35:57.622 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /docs | status=200 | duration=1.43ms
+2026-07-12 15:35:59.704 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /redoc | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:35:59.705 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /redoc | status=200 | duration=1.24ms
+2026-07-12 15:36:01.761 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /openapi.json | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:36:01.774 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /openapi.json | status=200 | duration=12.85ms
+2026-07-12 15:37:01.247 | INFO     | app.main:_on_startup:76 | ✓ Enterprise Asset Management v1.0.0 starting in production mode on 0.0.0.0:8000
+2026-07-12 15:37:01.247 | INFO     | app.main:_on_startup:84 | ✓ CORS allowed origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-07-12 15:37:01.247 | INFO     | app.main:_on_startup:85 | ✓ API prefix: /api/v1
+2026-07-12 15:37:01.247 | INFO     | app.main:_on_startup:86 | Application startup complete.
+2026-07-12 15:37:33.678 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /api/v1/health | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:37:33.683 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /api/v1/health | status=200 | duration=3.96ms
+2026-07-12 15:37:35.740 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /docs | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:37:35.741 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /docs | status=200 | duration=1.31ms
+2026-07-12 15:37:37.821 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /redoc | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:37:37.824 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /redoc | status=200 | duration=1.19ms
+2026-07-12 15:37:39.872 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /openapi.json | client=127.0.0.1 | headers={'host': 'localhost:8000', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'python-httpx/0.27.2'}
+2026-07-12 15:37:39.893 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /openapi.json | status=200 | duration=21.16ms
+2026-07-12 15:46:55.848 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /api/v1/health | client=testclient | headers={'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient'}
+2026-07-12 15:46:55.850 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /api/v1/health | status=200 | duration=1.13ms
+2026-07-12 15:46:55.853 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /docs | client=testclient | headers={'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient'}
+2026-07-12 15:46:55.853 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /docs | status=200 | duration=0.44ms
+2026-07-12 15:46:55.855 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /openapi.json | client=testclient | headers={'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient'}
+2026-07-12 15:46:55.873 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /openapi.json | status=200 | duration=18.45ms
+2026-07-12 15:51:29.701 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /api/v1/health | client=testclient | headers={'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient'}
+2026-07-12 15:51:29.704 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /api/v1/health | status=200 | duration=1.03ms
+2026-07-12 15:51:29.706 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /openapi.json | client=testclient | headers={'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient'}
+2026-07-12 15:51:29.730 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /openapi.json | status=200 | duration=24.53ms
+2026-07-12 15:56:06.634 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /api/v1/health | client=testclient | headers={'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient'}
+2026-07-12 15:56:06.639 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /api/v1/health | status=200 | duration=1.11ms
+2026-07-12 15:56:06.642 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /openapi.json | client=testclient | headers={'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient'}
+2026-07-12 15:56:06.679 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /openapi.json | status=200 | duration=37.30ms
+2026-07-12 15:59:18.709 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /api/v1/health | client=testclient | headers={'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient'}
+2026-07-12 15:59:18.717 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /api/v1/health | status=200 | duration=2.60ms
+2026-07-12 15:59:18.720 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /openapi.json | client=testclient | headers={'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient'}
+2026-07-12 15:59:18.765 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /openapi.json | status=200 | duration=48.18ms
+2026-07-12 16:03:15.746 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /api/v1/health | client=testclient | headers={'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient'}
+2026-07-12 16:03:15.756 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /api/v1/health | status=200 | duration=1.50ms
+2026-07-12 16:03:15.759 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /openapi.json | client=testclient | headers={'host': 'testserver', 'accept': '*/*', 'accept-encoding': 'gzip, deflate', 'connection': 'keep-alive', 'user-agent': 'testclient'}
+2026-07-12 16:03:15.841 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /openapi.json | status=200 | duration=95.89ms
+2026-07-12 16:03:39.473 | INFO     | app.main:_on_startup:76 | ✓ Enterprise Asset Management v1.0.0 starting in production mode on 0.0.0.0:8000
+2026-07-12 16:03:39.473 | INFO     | app.main:_on_startup:84 | ✓ CORS allowed origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-07-12 16:03:39.473 | INFO     | app.main:_on_startup:85 | ✓ API prefix: /api/v1
+2026-07-12 16:03:39.473 | INFO     | app.main:_on_startup:86 | Application startup complete.
+2026-07-12 16:04:13.802 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /api/v1/health | client=127.0.0.1 | headers={'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua': '"Not;A=Brand";v="8", "Chromium";v="150", "Google Chrome";v="150"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,te;q=0.8'}
+2026-07-12 16:04:13.811 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /api/v1/health | status=200 | duration=12.66ms
+2026-07-12 16:04:13.895 | INFO     | app.middleware.request_logger:_log_request:42 | → GET /favicon.ico | client=127.0.0.1 | headers={'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36', 'sec-ch-ua': '"Not;A=Brand";v="8", "Chromium";v="150", "Google Chrome";v="150"', 'sec-ch-ua-mobile': '?0', 'accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'no-cors', 'sec-fetch-dest': 'image', 'referer': 'http://127.0.0.1:8000/api/v1/health', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,te;q=0.8'}
+2026-07-12 16:04:13.899 | INFO     | app.middleware.request_logger:_log_response:53 | ← GET /favicon.ico | status=404 | duration=4.90ms
+2026-07-12 16:39:08.584 | INFO     | app.main:_on_startup:76 | ✓ Enterprise Asset Management v1.0.0 starting in production mode on 0.0.0.0:8000
+2026-07-12 16:39:08.584 | INFO     | app.main:_on_startup:84 | ✓ CORS allowed origins: ['http://localhost:5173', 'http://localhost:3000']
+2026-07-12 16:39:08.584 | INFO     | app.main:_on_startup:85 | ✓ API prefix: /api/v1
+2026-07-12 16:39:08.584 | INFO     | app.main:_on_startup:86 | Application startup complete.
+2026-07-12 16:39:34.619 | INFO     | app.main:_on_shutdown:91 | Application shutting down — releasing resources.

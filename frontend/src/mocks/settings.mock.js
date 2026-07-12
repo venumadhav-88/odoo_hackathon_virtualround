@@ -40,18 +40,18 @@ export const MOCK_SETTINGS = {
     ],
   },
   systemInfo: {
-    appName: 'AssetGuard EAM Enterprise',
+    appName: 'Shaunt Enterprise',
     appVersion: 'v2.4.1',
     frontendVersion: 'v2.4.1-build88',
     apiVersion: 'v2.0.0-mock',
     environment: 'Staging / Local Simulation',
     buildDate: '2026-07-01',
-    developer: 'EAM Frontend Team',
+    developer: 'Shaunt Frontend Team',
     license: 'Commercial Enterprise License',
   },
   about: {
-    description: 'Enterprise Asset Management (EAM) system orchestrating full lifecycle asset tracking, assignment custody workflows, maintenance scheduling, and analytical executive audits.',
+    description: 'Shaunt system orchestrating full lifecycle asset tracking, assignment custody workflows, maintenance scheduling, and analytical executive audits.',
     techStack: ['React 18', 'Vite 8', 'ESLint + Oxlint', 'Lucide React', 'CSS Variables'],
-    copyright: '© 2026 AssetGuard Inc. All rights reserved.',
+    copyright: '© 2026 Shaunt Inc. All rights reserved.',
   },
 };

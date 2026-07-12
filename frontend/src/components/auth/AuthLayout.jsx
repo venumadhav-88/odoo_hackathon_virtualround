@@ -1,7 +1,7 @@
-import React from 'react';
-import { Shield } from 'lucide-react';
+import React, { useState } from 'react';
 import { APP_CONFIG } from '@/config/app';
 import { AuthIllustration } from './AuthIllustration';
+import LogoSrc from '@/assets/logo.png';
 
 /**
  * AuthLayout Component.
@@ -11,13 +11,25 @@ import { AuthIllustration } from './AuthIllustration';
  * @returns {JSX.Element} Auth Layout.
  */
 export const AuthLayout = ({ children }) => {
+  const [logoError, setLogoError] = useState(false);
+
   return (
     <div className="auth-split-container">
       {/* Left illustration pane */}
       <div className="auth-left-pane">
         <div className="auth-branding-logo">
-          <Shield className="sidebar-logo" size={24} />
-          <span>AssetGuard</span>
+          {!logoError ? (
+            <img 
+              src={LogoSrc} 
+              alt="Shaunt Logo" 
+              className="sidebar-logo-img" 
+              onError={() => setLogoError(true)} 
+              style={{ width: '32px', height: '32px', objectFit: 'contain' }}
+            />
+          ) : (
+            <span style={{ fontSize: '1.5rem', fontWeight: 700, color: 'var(--color-primary)' }}>S</span>
+          )}
+          <span>Shaunt</span>
         </div>
         
         <AuthIllustration />
@@ -31,8 +43,18 @@ export const AuthLayout = ({ children }) => {
       <div className="auth-right-pane">
         <div className="auth-card">
           <div className="auth-mobile-branding">
-            <Shield className="sidebar-logo" size={28} />
-            <h2>AssetGuard</h2>
+            {!logoError ? (
+              <img 
+                src={LogoSrc} 
+                alt="Shaunt Logo" 
+                className="sidebar-logo-img" 
+                onError={() => setLogoError(true)} 
+                style={{ width: '32px', height: '32px', objectFit: 'contain' }}
+              />
+            ) : (
+              <span style={{ fontSize: '1.5rem', fontWeight: 700, color: 'var(--color-primary)' }}>S</span>
+            )}
+            <h2>Shaunt</h2>
           </div>
           {children}
         </div>
@@ -40,3 +62,4 @@ export const AuthLayout = ({ children }) => {
     </div>
   );
 };
+
